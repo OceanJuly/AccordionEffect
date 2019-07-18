@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./手风琴.css">
+  </head>
+  <body>
+    <div class="wrap">
+      <ul>
+        <li style="background-image:url(./img/1.jpg)">
+          <div class="txt">
+            <p>远方有诗和故事,你有酒吗</p>
+          </div>
+        </li>
+        <li style="background-image:url(./img/4.jpg)">
+          <div class="txt">
+            <p>远方有诗和故事,你有酒吗</p>
+          </div>
+        </li>
+        <li style="background-image:url(./img/3.jpg)">
+          <div class="txt">
+            <p>远方有诗和故事,你有酒吗</p>
+          </div>
+        </li>
+        <li style="background-image:url(./img/2.jpg); width:480px;">
+          <div class="txt">
+            <p>远方有诗和故事,你有酒吗</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <script src="./jquery-2.2.4.js"></script>
+    <script type="text/javascript">
+      $('.wrap ul li').hover(function(){
+        $(this).stop().animate({
+          width : '480px',
+        }).siblings().stop().animate({
+            width : '100px'
+        })
+      })
+    </script>
+
+  </body>
+</html>

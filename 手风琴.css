@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url('img/pg.jpg');
+}
+
+.wrap{
+  width: 780px;
+  height: 429px;
+  margin: 160px auto;
+  border: 1px solid #f00;
+}
+
+.wrap ul li{
+  list-style: none;
+  width: 120%;
+  height: 429px;
+  float: left;
+}
+
+.wrap ul{
+  width: 120%;
+}
+
+.txt{
+  width: 100px;
+  height: 429px;
+  background: rgba(0, 0, 0, .6);
+}
+
+.txt p{
+  padding: 44px;
+  color: #fff;
+  font-family: 'Microsoft yahei';
+  font-size: 14px;
+}
